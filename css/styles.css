@@ -167,13 +167,14 @@ body {
 }
 
 .first-screen__container {
+    width: 100vw;
     display: flex;
     justify-content: space-between;
 }
 
 .first-screen__textblock {
     padding: 42px 0;
-    margin: 50px 0 0 0 ;
+    margin: 20px 0 0 0 ;
 }
 
 .first-screen__header {
@@ -200,7 +201,7 @@ body {
 }
 
 .first-screen__image img {
-    width: 80%;
+    width: 50%;
     height: 80%;
 }
 
