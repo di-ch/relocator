@@ -18,3 +18,16 @@ buttons.forEach((btn) => {
         window.location.href = 'https://forms.gle/Dw7BKGNMRYvg92ju7';
     })
 })
+
+const toggleMenu = document.querySelector('#menuToggle');
+const menuToToggle = document.querySelector(".header-nav__items");
+
+toggleMenu.addEventListener("click", () => {
+    if (menuToToggle.style.transform !== 'none') {
+        menuToToggle.style.transform = 'none'
+    } else (
+        menuToToggle.style.transform = 'translate(-100%)'
+    )
+    
+
+})
