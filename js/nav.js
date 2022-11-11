@@ -15,7 +15,7 @@ const buttons = document.querySelectorAll('.btn');
 
 buttons.forEach((btn) => {
     btn.addEventListener("click", () => {
-        window.location.href = 'https://forms.gle/Dw7BKGNMRYvg92ju7';
+        window.location.href = 'https://forms.gle/YE4JKVPkLnXrGoNs8';
     })
 })
 
